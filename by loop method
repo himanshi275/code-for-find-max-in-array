@@ -5,3 +5,12 @@ return i;
 break;
    }
 }
+/**let mymap=new Map();
+for(let i=0;i<array.length;i++){
+if(mymap.has(target)){
+return i;
+break;
+}else{
+mymap.set(array[i],i);
+}
+}
